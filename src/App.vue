@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>SomeText Here</h1>
+    <ToggleGif srcImg="templates_ask_discard" srcGif="openvsc"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ToggleGif from './components/ToggleGif.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ToggleGif
   }
 }
 </script>
@@ -24,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
 }
+h1{width:45%}
 </style>
