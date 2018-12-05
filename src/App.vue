@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>SomeText Here</h1>
-    <ToggleGif srcImg="templates_ask_discard" srcGif="openvsc"/>
+    <ToggleGif srcImg="AdalMsal" srcGif="deleted"/>
   </div>
 </template>
 
